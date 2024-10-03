@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+article {
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 80vw;
+    margin-top: 5%;
+}
+
+.row{
+    display: flex;
+    margin-top: 5%;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+#intro {
+    margin-top: 13%;
+}
+
+#daveimg {
+    width: 40%;
+    max-width: 400px;
+    border-radius: 500px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+#daveimg:hover{
+    transform: scale(1.1);
+}
+
+#flagimg {
+    width: 50%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 20%;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+#flagimg:hover {
+    transform: scale(1.1);
+}
+
+#vrijetijd{
+    margin-top: 10%;
+}
+
+#musicimg{
+    max-width: 400px;
+    width: 70%;
+    margin-top: 10%;
+    margin-top: 0%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+#musicimg:hover {
+    transform: scale(1.1);
+}
+
+#vrijetijdtxt{
+    margin-top: 120px;
+}
+
